@@ -1,0 +1,19 @@
+.header {
+  color: black;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.content {
+  color: black;
+  margin-bottom: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
