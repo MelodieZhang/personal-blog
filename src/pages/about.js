@@ -100,14 +100,9 @@ const AboutPage = ({ location }) => {
             >
               Telegram
             </a>
-            &nbsp;|&nbsp;
-            <a
-              className={aboutStyle.link}
-              href="mailto:zhangmenghan728@gmail.com"
-              title="email"
-            >
-              Email
-            </a>
+            <div className={aboutStyle.content}>
+              zhangmenghan728@gmail.com
+            </div>
           </p>
         </div>
       </div>
