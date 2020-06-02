@@ -25,16 +25,14 @@ const TopNav = ({ location }) => {
     <div>
       <h1
         style={{
-          marginBottom: rhythm(32 / 28),
+          marginBottom: rhythm(0.5),
           marginTop: rhythm(1),
-          display: `flex`,
-          justifyContent: `center`,
         }}
       >
         <Link
           style={{
             color: `black`,
-            fontSize: `1.375rem`,
+            fontSize: `2.25rem`,
             boxShadow: `none`,
             textDecoration: `none`,
           }}
@@ -43,7 +41,14 @@ const TopNav = ({ location }) => {
           Melodie's typing...
         </Link>
       </h1>
-      <div className={navStyle.top_nav}>
+      <div
+        style={{
+          fontSize: `1rem`,
+        }}
+      >
+        Design, read, think, create.
+      </div>
+      <nav className={navStyle.top_nav}>
         <ul className={navStyle.nav_ul}>
           <li className={navStyle.nav_li}>
             <Link className={navStyle.li_link} style={indexLinkStyle} to={"/"}>
@@ -78,7 +83,7 @@ const TopNav = ({ location }) => {
             </Link>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   )
 }
