@@ -100,9 +100,7 @@ const AboutPage = ({ location }) => {
             >
               Telegram
             </a>
-            <div className={aboutStyle.content}>
-              zhangmenghan728@gmail.com
-            </div>
+            <div className={aboutStyle.content}>zhangmenghan728@gmail.com</div>
           </p>
         </div>
       </div>
