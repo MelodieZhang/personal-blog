@@ -1,38 +1,66 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import { Link } from "gatsby"
-import { rhythm } from "../utils/typography"
 
-import navStyle from "../css/top-nav.module.css"
+const navItemStyles = {
+  borderBottom: `1px solid transparent`,
+  color: `primary`,
+  display: `block`,
+  textDecoration: `none`,
+  zIndex: 1,
+  margin: `0 0 0 0`,
+  lineHeight: `navigation`,
+  "&:hover, &:focus": { fontWeight: "bold" },
+}
+
+const NavItem = ({ linkTo, children }) => (
+  <li
+    sx={{
+      margin: `0 0 0 0`,
+      padding: `10`,
+      marginRight: `5`,
+    }}
+  >
+    <Link
+      to={linkTo}
+      activeClassName="active"
+      sx={{
+        ...navItemStyles,
+        "&.active": {
+          fontWeight: `bold`,
+          borderBottomColor: `primary`,
+        },
+      }}
+    >
+      {children}
+    </Link>
+  </li>
+)
+
+const navItems = [
+  { id: `/`, text: `首页` },
+  { id: `archive`, text: `归档` },
+  { id: `about`, text: `关于` },
+  { id: `rss.xml`, text: `订阅` },
+]
 
 const TopNav = ({ location }) => {
-  const indexLinkStyle = {
-    color: location.pathname === "/" ? `#000000` : `rgba(0, 0, 0, 0.7)`,
-    fontWeight: location.pathname === "/" ? `500` : `400`,
-  }
-  const archiveLinkStyle = {
-    color: location.pathname === "/archive" ? `#000000` : `rgba(0, 0, 0, 0.7)`,
-    fontWeight: location.pathname === "/archive" ? `500` : `400`,
-  }
-  const aboutLinkStyle = {
-    color: location.pathname === "/about" ? `#000000` : `rgba(0, 0, 0, 0.7)`,
-    fontWeight: location.pathname === "/about" ? `500` : `400`,
-  }
-  const rssLinkStyle = {
-    color: location.pathname === "/rss" ? `#000000` : `rgba(0, 0, 0, 0.7)`,
-    fontWeight: location.pathname === "/rss" ? `500` : `400`,
-  }
   return (
-    <div>
+    <div
+      sx={{
+        marginTop: `9`,
+        marginBottom: `7`,
+      }}
+    >
       <h1
-        style={{
-          marginBottom: rhythm(0.5),
-          marginTop: rhythm(1),
+        sx={{
+          marginBottom: `3`,
         }}
       >
         <Link
-          style={{
-            color: `black`,
-            fontSize: `2.25rem`,
+          sx={{
+            color: `primary`,
+            fontSize: `5`,
             boxShadow: `none`,
             textDecoration: `none`,
           }}
@@ -43,45 +71,32 @@ const TopNav = ({ location }) => {
       </h1>
       <div
         style={{
-          fontSize: `1rem`,
+          color: `primary`,
+          fontSize: `1`,
         }}
       >
         Design, read, think, create.
       </div>
-      <nav className={navStyle.top_nav}>
-        <ul className={navStyle.nav_ul}>
-          <li className={navStyle.nav_li}>
-            <Link className={navStyle.li_link} style={indexLinkStyle} to={"/"}>
-              首页
-            </Link>
-          </li>
-          <li className={navStyle.nav_li}>
-            <Link
-              className={navStyle.li_link}
-              style={archiveLinkStyle}
-              to={"/archive"}
-            >
-              归档
-            </Link>
-          </li>
-          <li className={navStyle.nav_li}>
-            <Link
-              className={navStyle.li_link}
-              style={aboutLinkStyle}
-              to={"/about"}
-            >
-              关于
-            </Link>
-          </li>
-          <li className={navStyle.nav_li}>
-            <Link
-              className={navStyle.li_link}
-              style={rssLinkStyle}
-              to={"/rss.xml"}
-            >
-              RSS
-            </Link>
-          </li>
+      <nav
+        sx={{
+          marginTop: `9`,
+          borderBottomWidth: `1px`,
+          borderBottomColor: `divider`,
+          borderBottomStyle: `solid`,
+        }}
+      >
+        <ul
+          sx={{
+            listStyle: `none`,
+            display: `flex`,
+            margin: `0 0 0 0`,
+          }}
+        >
+          {navItems.map(({ id, text }) => (
+            <NavItem key={id} linkTo={`/${id}/`}>
+              <div>{text}</div>
+            </NavItem>
+          ))}
         </ul>
       </nav>
     </div>

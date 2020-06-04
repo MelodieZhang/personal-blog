@@ -1,4 +1,5 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
@@ -8,7 +9,7 @@ import { rhythm } from "../utils/typography"
 function PostItem(props) {
   const post = props.post
   return (
-    <article key={post.fields.slug} style={{ marginBottom: rhythm(64 / 28) }}>
+    <article key={post.fields.slug} sx={{ marginBottom: `4rem` }}>
       <Link
         style={{
           boxShadow: `none`,
