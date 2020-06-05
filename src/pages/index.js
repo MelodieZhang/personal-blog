@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 function PostItem(props) {
   const post = props.post
   return (
-    <article key={post.fields.slug} sx={{ marginBottom: `9` }}>
+    <article key={post.fields.slug} sx={{ marginBottom: `10` }}>
       <Link
         sx={{
           boxShadow: `none`,
@@ -27,8 +27,8 @@ function PostItem(props) {
         <p
           sx={{
             variant: `text.body`,
-            marginTop: `2`,
-            marginBottom: `2`,
+            marginTop: `3`,
+            marginBottom: `3`,
           }}
           dangerouslySetInnerHTML={{
             __html: post.excerpt,

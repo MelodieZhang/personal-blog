@@ -1,9 +1,9 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 function PostsOfYear(props) {
   const year = props.year
@@ -11,28 +11,26 @@ function PostsOfYear(props) {
   return (
     <div>
       <h3
-        style={{
-          fontSize: `1.5rem`,
-          fontWeight: `500`,
-          color: `black`,
-          marginTop: rhythm(64 / 28),
+        sx={{
+          fontSize: `5`,
+          variant: `text.heading`,
         }}
       >
         {year}
       </h3>
       <ul
-        style={{
+        sx={{
           listStyle: `none`,
-          margin: 0,
+          margin: `0`,
         }}
       >
         {postsOfYear.map(post => (
           <li key={post.fields.slug}>
             <div>
               <Link
-                style={{
+                sx={{
                   boxShadow: `none`,
-                  fontSize: `1rem`,
+                  fontSize: `2`,
                   color: `black`,
                   textDecoration: `none`,
                 }}
@@ -41,10 +39,10 @@ function PostsOfYear(props) {
                 {post.frontmatter.title}
               </Link>
               <time
-                style={{
+                sx={{
+                  variant: `text.small`,
+                  fontSize: `1`,
                   float: `right`,
-                  fontSize: `0.875rem`,
-                  color: `rgba(0, 0, 0, 0.5)`,
                 }}
                 dateTime={post.frontmatter.data}
               >
@@ -64,14 +62,19 @@ function ArchiveList(props) {
   const years = Object.keys(groupedPosts).sort().reverse()
   return (
     <ul
-      style={{
+      sx={{
         listStyle: `none`,
-        margin: 0,
+        margin: `0`,
       }}
     >
       {years.map(year => {
         return (
-          <li key={year}>
+          <li
+            sx={{
+              marginBottom: `8`,
+            }}
+            key={year}
+          >
             <PostsOfYear year={year} postsOfYear={groupedPosts[year]} />
           </li>
         )
