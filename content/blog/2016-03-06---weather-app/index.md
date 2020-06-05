@@ -54,8 +54,7 @@ Alamofire.request(.GET, url, parameters: ["lat":latitude, "lon":longtitude, "cnt
 
 如果只是简单的实现，可直接取 JSON 中的数值，显示在相应的 UI Label 上。这样做的好处是简单，但不利于后期的管理，拓展性也不好，如果以后需要展示更多的数据，就需要进行许多重复的赋值工作。
 
-我先是尝试使用 ObjectMapper 自动转换 JSON 为 Object，然而在与 Alamofire 之间的衔接处理上有些疑惑，未果。最后使用的是一个结合了两者的新轮子： [AlamofireObjectMapper](https://github.com/tristanhimmelman/AlamofireObjectMapper)，不仅涵盖了网络请求，也能自动解析 JSON 到 Swift 对象。  
-
+我先是尝试使用 ObjectMapper 自动转换 JSON 为 Object，然而在与 Alamofire 之间的衔接处理上有些疑惑，未果。最后使用的是一个结合了两者的新轮子： [AlamofireObjectMapper](https://github.com/tristanhimmelman/AlamofireObjectMapper)，不仅涵盖了网络请求，也能自动解析 JSON 到 Swift 对象。
 
 ```swift
 Alamofire.request(.GET, url, parameters: ["lat":latitude, "lon":longtitude, "cnt":0, "appid": "yourappid"]).responseObject{ (response: Response<WeatherResponse, NSError>) in
