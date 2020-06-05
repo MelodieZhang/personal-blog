@@ -74,7 +74,7 @@ const TopNav = ({ location }) => {
           fontSize: `1`,
         }}
       >
-        Design, read, think, create.
+        Design, read, learn, create.
       </div>
       <nav
         sx={{
