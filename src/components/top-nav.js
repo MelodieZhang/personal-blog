@@ -17,7 +17,6 @@ const NavItem = ({ linkTo, children }) => (
   <li
     sx={{
       margin: `0 0 0 0`,
-      padding: `10`,
       marginRight: `5`,
     }}
   >
@@ -48,13 +47,13 @@ const TopNav = ({ location }) => {
   return (
     <div
       sx={{
-        marginTop: `9`,
-        marginBottom: `7`,
+        marginTop: `10`,
+        marginBottom: `8`,
       }}
     >
       <h1
         sx={{
-          marginBottom: `3`,
+          marginBottom: `4`,
         }}
       >
         <Link
@@ -79,7 +78,7 @@ const TopNav = ({ location }) => {
       </div>
       <nav
         sx={{
-          marginTop: `9`,
+          marginTop: `10`,
           borderBottomWidth: `1px`,
           borderBottomColor: `divider`,
           borderBottomStyle: `solid`,
