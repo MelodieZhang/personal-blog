@@ -2,6 +2,7 @@ export default {
   colors: {
     primary: "black",
     background: "white",
+    heading: "black",
     text: "rgba(0, 0, 0, 0.7)",
     smalltext: "rgba(0, 0, 0, 0.5)",
     divider: "rgba(0, 0, 0, 0.12)",
@@ -23,6 +24,21 @@ export default {
     heading: 1.2,
     navigation: 2.5,
   },
-  fontSizes: [12, 14, 16, 20, 24, 36],
+  text: {
+    heading: {
+      color: "heading",
+      fontWeight: "heading",
+    },
+    body: {
+      color: "text",
+      fontWeight: "body",
+    },
+    small: {
+      color: "smalltext",
+      fontWeight: "body",
+      fontSize: 0,
+    },
+  },
+  fontSizes: [12, 14, 16, 20, 22, 24, 36],
   space: [8, 12, 16, 20, 32, 40, 48, 54, 64, 82],
 }

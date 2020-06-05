@@ -60,7 +60,7 @@ const TopNav = ({ location }) => {
         <Link
           sx={{
             color: `primary`,
-            fontSize: `5`,
+            fontSize: `6`,
             boxShadow: `none`,
             textDecoration: `none`,
           }}

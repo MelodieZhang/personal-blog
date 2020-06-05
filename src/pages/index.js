@@ -4,25 +4,31 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 function PostItem(props) {
   const post = props.post
   return (
-    <article key={post.fields.slug} sx={{ marginBottom: `4rem` }}>
+    <article key={post.fields.slug} sx={{ marginBottom: `9` }}>
       <Link
-        style={{
+        sx={{
           boxShadow: `none`,
-          color: `black`,
           textDecoration: `none`,
         }}
         to={post.fields.slug}
       >
-        <h3 style={{ fontSize: `1.25rem` }}>{post.frontmatter.title}</h3>
+        <h3
+          sx={{
+            variant: `text.heading`,
+            fontSize: `4`,
+          }}
+        >
+          {post.frontmatter.title}
+        </h3>
         <p
-          style={{
-            marginTop: rhythm(20 / 28),
-            marginBottom: rhythm(16 / 28),
+          sx={{
+            variant: `text.body`,
+            marginTop: `2`,
+            marginBottom: `2`,
           }}
           dangerouslySetInnerHTML={{
             __html: post.excerpt,
@@ -30,8 +36,8 @@ function PostItem(props) {
         />
       </Link>
       <small
-        style={{
-          color: `rgba(0, 0, 0, 0.5)`,
+        sx={{
+          variant: `text.small`,
         }}
       >
         {post.frontmatter.date}
