@@ -1,11 +1,9 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
-
-import blogPostStyle from "../css/blog-post.module.css"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -16,46 +14,53 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       <article>
-        <header style={{ marginTop: rhythm(1.5), marginBottom: rhythm(1) }}>
-          <h2 className={blogPostStyle.title}>{post.frontmatter.title}</h2>
-          <small className={blogPostStyle.date} style={{ ...scale(-1 / 5) }}>
-            {post.frontmatter.date}
-          </small>
+        <header sx={{ marginBottom: `5` }}>
+          <h2
+            sx={{
+              variant: `text.heading`,
+              fontSize: `3`,
+            }}
+          >
+            {post.frontmatter.title}
+          </h2>
+          <small sx={{ variant: `text.small` }}>{post.frontmatter.date}</small>
         </header>
         <section
-          className={blogPostStyle.body}
+          sx={{
+            variant: `text.body`,
+          }}
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
         <footer></footer>
       </article>
 
       <nav
-        style={{
-          marginTop: `4rem`,
+        sx={{
+          marginTop: `8`,
         }}
       >
         <ul
-          style={{
+          sx={{
             display: `flex`,
             flexWrap: `wrap`,
             justifyContent: `space-between`,
             listStyle: `none`,
-            padding: 0,
+            margin: `0 0 0 0`,
           }}
         >
           <li>
             {previous && (
               <Link
-                style={{
+                sx={{
                   textDecoration: `none`,
                   color: `black`,
                 }}
                 to={previous.fields.slug}
                 rel="prev"
               >
-                <span style={{ color: `rgba(0, 0, 0, 0.7)` }}>◂ </span>
+                <span sx={{ color: `body` }}>◂ </span>
                 <span>上一篇</span>{" "}
-                <span style={{ fontWeight: `500` }}>
+                <span sx={{ fontWeight: `bold` }}>
                   {previous.frontmatter.title}
                 </span>
               </Link>
@@ -64,7 +69,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <li>
             {next && (
               <Link
-                style={{
+                sx={{
                   textDecoration: `none`,
                   color: `black`,
                 }}
@@ -72,10 +77,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                 rel="next"
               >
                 <span>下一篇</span>{" "}
-                <span style={{ fontWeight: `500` }}>
+                <span sx={{ fontWeight: `bold` }}>
                   {next.frontmatter.title}
                 </span>
-                <span style={{ color: `rgba(0, 0, 0, 0.7)` }}> ▸</span>
+                <span sx={{ color: `body` }}> ▸</span>
               </Link>
             )}
           </li>
