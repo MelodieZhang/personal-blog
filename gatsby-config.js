@@ -8,10 +8,8 @@ module.exports = {
     description: `Menghan Zhang's Personal Blog`,
     siteUrl: `https://melodiezhang.com/`,
     social: {
-      twitter: `melodiezhang`,
-      instagram: `melodiezhang`,
+      twitter: `@melodiezhang`,
       telegram: `menghanzhang`,
-      zhihu: `melodiezhang`,
     },
   },
   plugins: [
