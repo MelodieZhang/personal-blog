@@ -97,7 +97,7 @@ const ArchivePage = ({ data, location }) => {
 
   return (
     <Layout location={location}>
-      <SEO title="Archive" />
+      <SEO title="Archive" description="All posts' archive list" />
       <ArchiveList groupedPosts={groupPostsByYear(posts)} />
     </Layout>
   )
