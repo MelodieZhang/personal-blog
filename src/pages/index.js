@@ -51,7 +51,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location}>
-      <SEO title="All posts" />
+      <SEO title="Index" description="Index page of the blog" />
       {posts.map(({ node }) => {
         return <PostItem post={node} />
       })}
