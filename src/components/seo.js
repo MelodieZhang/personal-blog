@@ -16,7 +16,9 @@ const SEO = ({ description, lang, meta, title }) => {
       query {
         site {
           siteMetadata {
+            siteUrl
             title
+            image
             description
             social {
               twitter
@@ -28,7 +30,7 @@ const SEO = ({ description, lang, meta, title }) => {
   )
 
   const metaDescription = description || site.siteMetadata.description
-
+  const img = `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`
   return (
     <Helmet
       htmlAttributes={{
@@ -54,6 +56,10 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: img,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -69,6 +75,10 @@ const SEO = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `twitter:image`,
+          content: img,
+        },
       ].concat(meta)}
     />
   )
@@ -78,6 +88,8 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+  title: `Menghan Zhang`,
+  image: null,
 }
 
 SEO.propTypes = {
@@ -85,6 +97,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.string,
 }
 
 export default SEO
