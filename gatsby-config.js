@@ -1,17 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Melodie's typing...`,
+    title: `Menghan Zhang`,
     author: {
       name: `Menghan Zhang`,
       summary: `Interaction Designer at Google.`,
     },
-    description: `Menghan's Personal Blog`,
+    description: `Menghan Zhang's Personal Blog`,
     siteUrl: `https://melodiezhang.com/`,
+    image: `content/assets/seo.jpg`,
     social: {
-      twitter: `melodiezhang`,
-      instagram: `melodiezhang`,
+      twitter: `@melodiezhang`,
       telegram: `menghanzhang`,
-      zhihu: `melodiezhang`,
     },
   },
   plugins: [

@@ -41,7 +41,10 @@ const AboutPage = ({ location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="About" />
+      <SEO
+        title="About"
+        description="Personal information about Menghan Zhang"
+      />
       <div
         sx={{
           display: `flex`,
