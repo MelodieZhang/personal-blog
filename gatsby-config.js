@@ -7,6 +7,7 @@ module.exports = {
     },
     description: `Menghan Zhang's Personal Blog`,
     siteUrl: `https://melodiezhang.com/`,
+    image: `content/assets/seo.jpg`,
     social: {
       twitter: `@melodiezhang`,
       telegram: `menghanzhang`,
