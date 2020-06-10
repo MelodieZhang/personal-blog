@@ -38,7 +38,7 @@ Steal Like an Artist 的作者 Austin Kleon 写的，关于如何在现在互联
 
 2020 年结束前不会回办公室工作了。长期居家办公的挑战是，如何建立起一套新的系统，来适应在同一个空间既工作又生活。这本书给我很多启发。上篇文章也提到过，建立有效习惯的四个要素是：让它更明显，有吸引力，容易重复，且能让人产生满足感。
 
-可以拿来当作例子的是近期养成了站立办公的习惯。首先是[站立办公桌](https://www.autonomous.ai/standing-desks/smartdesk-2-home?option1=1&option2=7&option16=36&option17=1881)让频繁的站起坐下切换变得很容易，最近又买了一个 [balance board](https://fluidstance.com/) 让站立这件事变得更有趣，现在平均每天只有不到 1/3 的时间是坐着的。
+可以拿来当作例子的是近期养成了站立办公的习惯。首先是[站立办公桌](https://www.autonomous.ai/standing-desks/smartdesk-2-home?option1=1&option2=7&option16=36&option17=1881)让频繁的站起坐下切换变得很容易，最近又买了一个 [balance board](https://fluidstance.com/products/the-level-balance-board-for-standing-desk) 让站立这件事变得更有趣，现在平均每天只有不到 1/3 的时间是坐着的。
 
 ### [漫长的告别](https://book.douban.com/subject/30316475/)
 
