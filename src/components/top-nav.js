@@ -41,6 +41,7 @@ const navItems = [
   { id: `archive`, text: `归档` },
   { id: `about`, text: `关于` },
   { id: `rss.xml`, text: `RSS` },
+  { id: `newsletter`, text: `Newsletter` },
 ]
 
 const TopNav = ({ location }) => {
