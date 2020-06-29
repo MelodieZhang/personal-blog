@@ -19,7 +19,7 @@ const SimpleForm = ({ status, message, onValidated }) => {
           <Label htmlFor="email">Your email</Label>
           <Input ref={node => (email = node)} type="email" id="email" />
         </Box>
-        <Button onClick={submit}>Send me the emails!</Button>
+        <Button onClick={submit}>订阅</Button>
       </Flex>
       <Box mt="2" sx={{ fontSize: 1 }}>
         {status === "sending" && <Spinner />}
