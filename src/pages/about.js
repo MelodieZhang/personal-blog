@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -98,6 +98,14 @@ const AboutPage = ({ location }) => {
               <div>
                 <span sx={{ fontWeight: `bold` }}>Email</span>
                 &nbsp;&nbsp;zhangmenghan728@gmail.com
+              </div>
+              <br />
+              <div>
+                📫 通过{" "}
+                <a href="/rss.xml" target="_blank">
+                  RSS
+                </a>{" "}
+                订阅
               </div>
             </p>
           </div>
