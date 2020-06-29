@@ -3,12 +3,11 @@ title: 至少有书读
 date: "2020-06-08"
 ---
 
-
 从美国疫情爆发开始在家办公，到现在三个月过去了。困在家里的安宁，和新闻报道的嘈杂形成反差，偶尔忘记自己身在何处。好在在各种不确定的缝隙里，至少还有书可读。
 
 ### [No Filter](https://www.simonandschuster.com/books/No-Filter/Sarah-Frier/9781982126803)
 
-讲 Instagram 从创始到现在的故事：Instagram 如何被收购，Facebook 和 Twitter 之间由来已久的竞争，Twitter 收购的 Vine 为什么失败，为什么 Instagram 一直简约克制，而它又是如何移植 Snapchat 的 Stories 的… 
+讲 Instagram 从创始到现在的故事：Instagram 如何被收购，Facebook 和 Twitter 之间由来已久的竞争，Twitter 收购的 Vine 为什么失败，为什么 Instagram 一直简约克制，而它又是如何移植 Snapchat 的 Stories 的…
 
 有一段讲 [Kevin Systrom](https://twitter.com/kevin)（Instagram CEO），[Jack Dorsey](https://twitter.com/jack)（Twitter CEO），和 [Ev Williams](https://twitter.com/ev)（Medium CEO，曾短暂取代 Jack 担任 Twitter CEO）的插曲挺好玩。Instagram 创始人 Kevin 曾经在 Ev 创办的公司 Odeo 实习，Jack 这个时候也是 Odeo 的一名工程师，他是 Kevin 的 mentor，这俩人后来成了关系不错的朋友。几年后 Instagram 刚做出来的时候，Jack 很喜欢，每天都要发几张照片。后来 Jack 和 Ev 商量想让 Twitter 收购 Instagram，Ev 不太乐意。后来，当 Kevin 在没有事先知会 Jack 的情况下，把 Instagram 卖给 Facebook 时，Jack 非常生气，直接把 app 从手机里删掉了。
 
