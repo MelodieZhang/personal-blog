@@ -18,7 +18,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <h2
             sx={{
               variant: `text.heading`,
-              fontSize: `3`,
+              fontSize: `4`,
             }}
           >
             {post.frontmatter.title}
