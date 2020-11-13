@@ -38,9 +38,9 @@ const NavItem = ({ linkTo, children }) => (
 
 const navItems = [
   { id: `/`, text: `首页` },
-  { id: `archive`, text: `归档` },
-  { id: `about`, text: `关于` },
-  { id: `newsletter`, text: `Newsletter` },
+  { id: `/archive`, text: `归档` },
+  { id: `/about`, text: `关于` },
+  { id: `/newsletter`, text: `Newsletter` },
 ]
 
 const TopNav = ({ location }) => {
@@ -92,7 +92,7 @@ const TopNav = ({ location }) => {
           }}
         >
           {navItems.map(({ id, text }) => (
-            <NavItem key={id} linkTo={`/${id}/`}>
+            <NavItem key={id} linkTo={`${id}`}>
               <div>{text}</div>
             </NavItem>
           ))}
