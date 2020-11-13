@@ -4,7 +4,7 @@ date: "2020-11-12"
 ---
 
 
-Naval 是谁？[AngelList]([https://angel.co/](https://angel.co/)) CEO，200 多家创业公司的[天使投资人]([https://angel.co/p/naval](https://angel.co/p/naval))，[发 Tweet 的人]([https://twitter.com/naval](https://twitter.com/naval))，[内容创作者]([https://nav.al/](https://nav.al/))…… 我在 [Mélodie Newsletter #10]([https://mailchi.mp/fdcfa0113795/melodie-10](https://mailchi.mp/fdcfa0113795/melodie-10)) 里推荐了他在 [The Knowledge Project](https://fs.blog/knowledge-project/naval-ravikant/) 播客的采访，一个多小时听下来，有太多令人深思的点，来不及做笔记。后来又找到 [The Almanack of Naval Ravikant]([https://www.navalmanack.com/](https://www.navalmanack.com/)) 这本书，集合了他在各处散落的思考，内容基本覆盖了他在播客里讲到的点。这本书的[诞生过程](https://www.navalmanack.com/blog-posts/how-this-book-came-together-entirely-on-twitter)挺有意思，作者 Eric Jorgenson 一开始是以陌生人的身份在 Twitter 上问 Naval 能不能把他的东西整理成书，Naval 同意了，然后就有了这本书。整个项目是公共服务性质的，[电子版]([https://www.navalmanack.com/](https://www.navalmanack.com/))可以免费获得。 
+Naval 是谁？[AngelList](https://angel.co/) CEO，200 多家创业公司的[天使投资人](https://angel.co/p/naval)，[发 Tweet 的人](https://twitter.com/naval)，[内容创作者](https://nav.al/)…… 我在 [Mélodie Newsletter #10](https://mailchi.mp/fdcfa0113795/melodie-10) 里推荐了他在 [The Knowledge Project](https://fs.blog/knowledge-project/naval-ravikant/) 播客的采访，一个多小时听下来，有太多令人深思的点，来不及做笔记。后来又找到 [The Almanack of Naval Ravikant](https://www.navalmanack.com/) 这本书，集合了他在各处散落的思考，内容基本覆盖了他在播客里讲到的点。这本书的[诞生过程](https://www.navalmanack.com/blog-posts/how-this-book-came-together-entirely-on-twitter)挺有意思，作者 Eric Jorgenson 一开始是以陌生人的身份在 Twitter 上问 Naval 能不能把他的东西整理成书，Naval 同意了，然后就有了这本书。整个项目是公共服务性质的，[电子版](https://www.navalmanack.com/)可以免费获得。 
 
 如果有年度书籍评选的话，The Almanack of Naval Ravikant 大概是我的年度最佳之一。Naval 在人生、财富、幸福、创造方面的智慧，给了我很多启发。一方面读的时候有无数「啊，就是这样！」这样拍桌叫好、心有戚戚焉的时刻，另一方面又有许多非常规的观点和看待事物的角度，每一处都让人反思良久。
 
