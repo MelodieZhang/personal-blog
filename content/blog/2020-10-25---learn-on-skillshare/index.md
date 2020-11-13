@@ -4,7 +4,7 @@ date: "2020-10-25"
 ---
 
 
-在家办公大半年，这期间发掘的新乐趣包括但不限于：做 [newsletter](https://us10.campaign-archive.com/?u=4fed45ee5092478a3ecdc063a&id=071e2b2c8a)，栽培植物，做 zins，学 [3D 插画](https://www.instagram.com/p/CEtFjsqgCc3/)。这些新乐趣，一回想发现几乎一半都起源于在 Skillshare 上看过的课程。Skillshare 是一个在线学习平台，和其他学术型在线教育平台不同的是，它的内容集中在创意艺术领域，比如插画，摄影，设计等，适合发展兴趣爱好以及创意领域入门。大部分编辑推荐和受欢迎的课程质量都还不错，不过由于谁都可以在这个平台上开课，因此长尾内容质量也参差不齐。这里记录并推荐下我喜欢的一些课，感兴趣的话可以[在这里利用 14 天试用期](https://skl.sh/35rh7SY)观看。
+在家办公大半年，这期间发掘的新乐趣包括但不限于：做 [newsletter](https://us10.campaign-archive.com/?u=4fed45ee5092478a3ecdc063a&id=071e2b2c8a)，栽培植物，做 zines，学 [3D 插画](https://www.instagram.com/p/CEtFjsqgCc3/)。这些新乐趣，一回想发现几乎一半都起源于在 Skillshare 上看过的课程。Skillshare 是一个在线学习平台，和其他学术型在线教育平台不同的是，它的内容集中在创意艺术领域，比如插画，摄影，设计等，适合发展兴趣爱好以及创意领域入门。大部分编辑推荐和受欢迎的课程质量都还不错，不过由于谁都可以在这个平台上开课，因此长尾内容质量也参差不齐。这里记录并推荐下我喜欢的一些课，感兴趣的话可以[在这里利用 14 天试用期](https://skl.sh/35rh7SY)观看。
 
 ### [Make Creativity Your Career: Six Exercises to Create a Successful Side Project]((https://www.skillshare.com/classes/Make-Creativity-Your-Career-Six-Exercises-to-Create-a-Successful-Side-Project/1602595214/projects)) 
 
