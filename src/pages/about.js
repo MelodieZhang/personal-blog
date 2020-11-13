@@ -62,7 +62,7 @@ const AboutPage = ({ location }) => {
             <p sx={{ variant: `text.body` }}>
               张梦晗, Melodie
               <br />
-              现 Google 用户体验设计师
+              Google 用户体验设计师
               <br />
               前知乎产品设计师
               <br />
@@ -76,6 +76,10 @@ const AboutPage = ({ location }) => {
           >
             <h3 sx={{ ...aboutHeading }}>Elsewhere</h3>
             <p sx={{ variant: `text.body` }}>
+              <a href="https://us10.campaign-archive.com/home/?u=4fed45ee5092478a3ecdc063a&id=391be5d253">Mélodie Newsletter</a>
+              <div>隔周更新，包含七个链接</div>
+              <a href="https://www.etsy.com/shop/DreamZakka">Dream Zakka</a>
+              <div>贩卖手绘和设计的 Etsy 小店</div>
               <a href="https://www.instagram.com/menghan.xyz/">menghan.xyz</a>
               <div>不定期更新的插画</div>
               <a href="https://mydesignnotebook.tumblr.com/">Design Notebook</a>
