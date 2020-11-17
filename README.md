@@ -1,6 +1,6 @@
 # Melodie's typing...
 
-Here lies the source code of my personal blog [Melodie's typing...](https://melodiezhang.com/).
+Here lies the source code of my personal blog [Melodie's typing...](https://menghanzhang.com/).
 
 # Gatsby
 

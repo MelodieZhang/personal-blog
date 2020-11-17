@@ -6,7 +6,7 @@ module.exports = {
       summary: `Interaction Designer at Google.`,
     },
     description: `Menghan Zhang's Personal Blog`,
-    siteUrl: `https://melodiezhang.com/`,
+    siteUrl: `https://menghanzhang.com/`,
     image: `/seo.jpg`,
     social: {
       twitter: `@melodiezhang`,
