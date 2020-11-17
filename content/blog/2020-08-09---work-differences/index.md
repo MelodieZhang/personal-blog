@@ -48,4 +48,4 @@ date: "2020-08-09"
 
 ### 📮 Mélodie Newsletter
 
-Mélodie 是每两周更新一次的电子简报，分享我认为值得推荐的七个链接，主题不限，形式不定，可能是文章 / 书 / 视频 / 音乐 / 工具等任何有趣的事物。目前已更新三期，[欢迎订阅](https://melodiezhang.com/newsletter/) :)
+Mélodie 是每两周更新一次的电子简报，分享我认为值得推荐的七个链接，主题不限，形式不定，可能是文章 / 书 / 视频 / 音乐 / 工具等任何有趣的事物。目前已更新三期，[欢迎订阅](https://menghanzhang.com/newsletter/) :)

@@ -45,7 +45,7 @@ Spotify 2019 的年终盘点显示今年我听了一千多分钟的播客，比�
 
 今年大部分产出来自于上过的课。上半年 IoT 课上做的两个项目印象最深刻：一个是连接远距离的人们且反焦虑的慢游戏 Pixel Away，另一个是 Studio 里会吐出消息的储物柜。Capstone 项目也在上半年圆满结束，虽然过程中有很多的折返迷茫，以及合作上的摩擦，最后还是共同产出了一个让客户满意的解决方案。Digital Ethnography 我们小组选的主题是研究 Instagram 上的 pet influencers。为了更好地了解当一个运营宠物帐号的主人心态，我们「领养」了一只 therapy husky，给它创建帐号、发照片，以及去线上私信采访那些宠物大 V 们，最后把所有发现写成了[一篇文章](https://medium.com/@melodiezhang/unraveling-the-mystery-behind-pet-influencers-c6b5a2cdb7c2)，可以说是最享受过程的一个项目。
 
-秋季学期只选了三门课：信息密度很大的 [Design for Human-Centred Software](http://melodiezhang.com/post/hci-ke-tang-bi-ji)，自由散漫的 Industrial Design Practice，和枯燥必修的毕业论文。工业设计实践完全是被课题吸引了— 重新设计珍珠奶茶的饮用体验，以及其中一次去学做陶瓷的机会。毕业论文因为是自定主题，我选了 MaaS（Mobility as a Service），深入了解这个话题后觉得很有趣，这也是头一次写七千多字的英文论文。
+秋季学期只选了三门课：信息密度很大的 [Design for Human-Centred Software](http://menghanzhang.com/post/hci-ke-tang-bi-ji)，自由散漫的 Industrial Design Practice，和枯燥必修的毕业论文。工业设计实践完全是被课题吸引了— 重新设计珍珠奶茶的饮用体验，以及其中一次去学做陶瓷的机会。毕业论文因为是自定主题，我选了 MaaS（Mobility as a Service），深入了解这个话题后觉得很有趣，这也是头一次写七千多字的英文论文。
 
 除此之外，业余更新了博客，画了插画，还有一个 Chrome 扩展插件的小项目正在进行中，希望明年初能完成。
 
