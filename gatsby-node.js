@@ -52,19 +52,16 @@ exports.createPages = async ({ graphql, actions }) => {
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
-  if (node.internal.type === `File`) {
-    const parsedFilePath = path.parse(node.absolutePath)
-    const slug = `/blog/${parsedFilePath.dir.split("---")[1]}/`
-    createNodeField({ node, name: `slug`, value: slug })
-  } else if (
+  if (
     node.internal.type === `MarkdownRemark` &&
     typeof node.slug === "undefined"
   ) {
     const fileNode = getNode(node.parent)
+    const slug = fileNode.relativePath.split("/")[0].split("---")[1]
     createNodeField({
       node,
       name: `slug`,
-      value: fileNode.fields.slug,
+      value: slug,
     })
   }
 }
