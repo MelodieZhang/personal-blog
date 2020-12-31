@@ -57,7 +57,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     typeof node.slug === "undefined"
   ) {
     const fileNode = getNode(node.parent)
-    const slug = fileNode.relativePath.split("/")[0].split("---")[1]
+    const slug = `/blog/${fileNode.relativePath.split("/")[0].split("---")[1]}`
     createNodeField({
       node,
       name: `slug`,
