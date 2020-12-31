@@ -1,4 +1,6 @@
 # Melodie's typing...
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a73b0cee-cf33-4da2-834a-07b52cee5129/deploy-status)](https://app.netlify.com/sites/vibrant-fermi-5afcf1/deploys)
+
 Here lies the source code of my personal blog [Melodie's typing...](https://menghanzhang.com/).
 
 # Gatsby
