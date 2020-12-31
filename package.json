@@ -38,6 +38,9 @@
     "typeface-montserrat": "0.0.75",
     "typography": "^0.16.19"
   },
+  "resolutions": {
+    "sharp": "0.24.0"
+  },
   "devDependencies": {
     "prettier": "2.0.5"
   },
