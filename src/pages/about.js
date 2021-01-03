@@ -76,13 +76,13 @@ const AboutPage = ({ location }) => {
           >
             <h3 sx={{ ...aboutHeading }}>Elsewhere</h3>
             <p sx={{ variant: `text.body` }}>
-              <a href="https://us10.campaign-archive.com/home/?u=4fed45ee5092478a3ecdc063a&id=391be5d253">Mélodie Newsletter</a>
+              <a href="https://us10.campaign-archive.com/home/?u=4fed45ee5092478a3ecdc063a&id=391be5d253" target="_blank">Mélodie Newsletter</a>
               <div>隔周更新，包含七个链接</div>
-              <a href="https://www.etsy.com/shop/DreamZakka">Dream Zakka</a>
+              <a href="https://www.etsy.com/shop/DreamZakka" target="_blank">Dream Zakka</a>
               <div>贩卖手绘和设计的 Etsy 小店</div>
-              <a href="https://www.instagram.com/menghan.xyz/">menghan.xyz</a>
+              <a href="https://www.instagram.com/menghan.xyz/" target="_blank">menghan.xyz</a>
               <div>不定期更新的插画</div>
-              <a href="https://mydesignnotebook.tumblr.com/">Design Notebook</a>
+              <a href="https://mydesignnotebook.tumblr.com/" target="_blank">Design Notebook</a>
               <div>产品设计文章收集册</div>
             </p>
           </div>
@@ -95,7 +95,7 @@ const AboutPage = ({ location }) => {
             <p sx={{ variant: `text.body` }}>
               <div>
                 <span sx={{ fontWeight: `bold` }}>Telegram&nbsp;&nbsp;</span>
-                <a href="https://telegram.me/menghanzhang" title="telegram">
+                <a href="https://telegram.me/menghanzhang" title="telegram" target="_blank">
                   @menghanzhang
                 </a>
               </div>
