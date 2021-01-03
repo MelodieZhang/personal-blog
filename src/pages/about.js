@@ -111,6 +111,13 @@ const AboutPage = ({ location }) => {
                 </a>{" "}
                 订阅
               </div>
+              <div>
+                🍦 {" "}
+                <a href="https://www.buymeacoffee.com/menghan" title="buymeacoffee" target="_blank">
+                  请我吃冰淇淋
+                </a>{" "}
+                :)
+              </div>
             </p>
           </div>
         </div>
