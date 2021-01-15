@@ -10,9 +10,19 @@ Here lies the source code of my personal blog [Melodie's typing...](https://meng
 
 [Gatsby](https://www.gatsbyjs.org/) is a free and open source framework based on React that helps developers build blazing fast **websites** and **apps**.
 
+## This Blog
+
+This blog is developed based on [gatsby-starter-blog](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-blog/). You can start either from scratch or any existing [starter templates](https://www.gatsbyjs.org/starters?v=2) and [running sites](https://www.gatsbyjs.org/showcase/).
+
+# Develop
+
 ## Development Environment
 
 https://www.gatsbyjs.org/tutorial/part-zero/
+
+## Code style
+
+Use `npm run-script format` to format the repo.
 
 ## Host
 
@@ -24,7 +34,3 @@ The domain of this blog is [menghanzhang.com](https://menghanzhang.com). It also
 
 Netlify uses [Let's Encrypt](https://letsencrypt.org) to enable HTTPS for menghanzhang.com automatically. Since I don't have a host server for the old domain melodiezhang.com, it is not convenient to enable HTTPS for it. Unfortunately, the old domain enabled HSTS(HTTP Strict Transport Security) and the setting has been saved locally that existing users are blocked by visiting the old domain unless they clear the setting manually. So, I use [Cloudflare](https://www.cloudflare.com)
 to stand between the users and the domain. Cloudflare enables HTTPS for melodiezhang.com.
-
-## This Blog
-
-This blog is developed based on [gatsby-starter-blog](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-blog/). You can start either from scratch or any existing [starter templates](https://www.gatsbyjs.org/starters?v=2) and [running sites](https://www.gatsbyjs.org/showcase/).
