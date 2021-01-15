@@ -3,12 +3,11 @@ title: "Productivity Hacks"
 date: "2020-09-13"
 ---
 
-
-### 🎈有趣就是生产力
+### 🎈 有趣就是生产力
 
 生产力按照字面意思就是单位时间内的产出，productivity = output / time。最近看到 [Ali Abdaal](https://aliabdaal.com/) 提出的一个衍生版本觉得很有意思：
 
-> productivity = (useful output / time) * f
+> productivity = (useful output / time) \* f
 
 这个等式首先是强调了产出应该是有用的产出，其次是后面乘上的 f，f 代表 fun factor，意思是说，当一件事情对你而言足够有趣，你的生产效率也会成倍提升。有趣对生产力太重要了。
 
@@ -38,9 +37,9 @@ date: "2020-09-13"
 
 之前提到过目前在用 Notion ，虽然还在摸索阶段，但通过研究别人怎么用，也逐渐在形成一套适合自己的信息管理系统。几个我正在试验中的用法：
 
-- **Resonance calendar**  配合 Notion chrome 插件，用于摘录归档所有互联网上看到的好内容。添加时可以简要备注，事后打标签分类。这个数据库有三个视图，列表用来日常浏览查询，表格用于管理，日历视图可查看每天都读了些什么。
-- **To-action list**  用于收集所有的待行动事项（to-learn，to-cook，to-read...）。例如最近在学 Blender 3D，平时看到好的教程就会加进来，然后在看板视图（Board view）管理学习进度。有这个列表的好处是，当我想要做某件事时，就已经有现成的清单在那里，所以更容易「开始做」，而不用花太多时间去想「做什么」。
-- **Bi-directional link**  双向链接有助于在信息之间建立关联，这个概念因为 Roam 的出现火了起来，在 Notion 里其实也可以用 Relation 属性来实现这一效果。比如，数据库 A 里某条目 x 的 Relation 指定了数据库 B 的 y 条目，此时条目 y 的 Relation 里也会自动显示条目 x。最近在试验把它应用到读和写上，串起输入和输出。
+- **Resonance calendar** 配合 Notion chrome 插件，用于摘录归档所有互联网上看到的好内容。添加时可以简要备注，事后打标签分类。这个数据库有三个视图，列表用来日常浏览查询，表格用于管理，日历视图可查看每天都读了些什么。
+- **To-action list** 用于收集所有的待行动事项（to-learn，to-cook，to-read...）。例如最近在学 Blender 3D，平时看到好的教程就会加进来，然后在看板视图（Board view）管理学习进度。有这个列表的好处是，当我想要做某件事时，就已经有现成的清单在那里，所以更容易「开始做」，而不用花太多时间去想「做什么」。
+- **Bi-directional link** 双向链接有助于在信息之间建立关联，这个概念因为 Roam 的出现火了起来，在 Notion 里其实也可以用 Relation 属性来实现这一效果。比如，数据库 A 里某条目 x 的 Relation 指定了数据库 B 的 y 条目，此时条目 y 的 Relation 里也会自动显示条目 x。最近在试验把它应用到读和写上，串起输入和输出。
 
 ### 📝 空白画布
 

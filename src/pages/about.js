@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Emoji from "../components/emoji"
 import Img from "gatsby-image"
 
 const AboutPage = ({ location }) => {
@@ -76,13 +77,37 @@ const AboutPage = ({ location }) => {
           >
             <h3 sx={{ ...aboutHeading }}>Elsewhere</h3>
             <p sx={{ variant: `text.body` }}>
-              <a href="https://us10.campaign-archive.com/home/?u=4fed45ee5092478a3ecdc063a&id=391be5d253" rel="noreferrer" target="_blank">Mélodie Newsletter</a>
+              <a
+                href="https://us10.campaign-archive.com/home/?u=4fed45ee5092478a3ecdc063a&id=391be5d253"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Mélodie Newsletter
+              </a>
               <div>隔周更新，包含七个链接</div>
-              <a href="https://www.etsy.com/shop/DreamZakka" rel="noreferrer" target="_blank">Dream Zakka</a>
+              <a
+                href="https://www.etsy.com/shop/DreamZakka"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Dream Zakka
+              </a>
               <div>贩卖手绘和设计的 Etsy 小店</div>
-              <a href="https://www.instagram.com/menghan.xyz/" rel="noreferrer" target="_blank">menghan.xyz</a>
+              <a
+                href="https://www.instagram.com/menghan.xyz/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                menghan.xyz
+              </a>
               <div>不定期更新的插画</div>
-              <a href="https://mydesignnotebook.tumblr.com/" rel="noreferrer" target="_blank">Design Notebook</a>
+              <a
+                href="https://mydesignnotebook.tumblr.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Design Notebook
+              </a>
               <div>产品设计文章收集册</div>
             </p>
           </div>
@@ -95,7 +120,12 @@ const AboutPage = ({ location }) => {
             <p sx={{ variant: `text.body` }}>
               <div>
                 <span sx={{ fontWeight: `bold` }}>Telegram&nbsp;&nbsp;</span>
-                <a href="https://telegram.me/menghanzhang" title="telegram" rel="noreferrer" target="_blank">
+                <a
+                  href="https://telegram.me/menghanzhang"
+                  title="telegram"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   @menghanzhang
                 </a>
               </div>
@@ -105,15 +135,20 @@ const AboutPage = ({ location }) => {
               </div>
               <br />
               <div>
-                📫 通过{" "}
+                <Emoji symbol="📫" label="mailbox" /> 通过{" "}
                 <a href="/rss.xml" rel="noreferrer" target="_blank">
                   RSS
                 </a>{" "}
                 订阅
               </div>
               <div>
-                🍦 {" "}
-                <a href="https://www.buymeacoffee.com/menghan" title="buymeacoffee" rel="noreferrer" target="_blank">
+                <Emoji symbol="🍦" label="ice cream" />{" "}
+                <a
+                  href="https://www.buymeacoffee.com/menghan"
+                  title="buymeacoffee"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   请我吃冰淇淋
                 </a>{" "}
                 :)

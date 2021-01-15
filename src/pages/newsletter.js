@@ -4,6 +4,7 @@ import { jsx } from "theme-ui"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SimpleSubscribe from "../components/subscribe/simple"
+import Emoji from "../components/emoji"
 
 const NewsletterPage = ({ location }) => {
   return (
@@ -16,7 +17,7 @@ const NewsletterPage = ({ location }) => {
           marginBottom: `4`,
         }}
       >
-        📮 Mélodie
+        <Emoji symbol="📮" label="postbox" /> Mélodie
       </h3>
       <p sx={{ variant: `text.body` }}>
         Mélodie
