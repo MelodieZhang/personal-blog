@@ -3,8 +3,7 @@ title: "读 Naval Ravikant"
 date: "2020-11-12"
 ---
 
-
-Naval 是谁？[AngelList](https://angel.co/) CEO，200 多家创业公司的[天使投资人](https://angel.co/p/naval)，[发 Tweet 的人](https://twitter.com/naval)，[内容创作者](https://nav.al/)…… 我在 [Mélodie Newsletter #10](https://mailchi.mp/fdcfa0113795/melodie-10) 里推荐了他在 [The Knowledge Project](https://fs.blog/knowledge-project/naval-ravikant/) 播客的采访，一个多小时听下来，有太多令人深思的点，来不及做笔记。后来又找到 [The Almanack of Naval Ravikant](https://www.navalmanack.com/) 这本书，集合了他在各处散落的思考，内容基本覆盖了他在播客里讲到的点。这本书的[诞生过程](https://www.navalmanack.com/blog-posts/how-this-book-came-together-entirely-on-twitter)挺有意思，作者 Eric Jorgenson 一开始是以陌生人的身份在 Twitter 上问 Naval 能不能把他的东西整理成书，Naval 同意了，然后就有了这本书。整个项目是公共服务性质的，[电子版](https://www.navalmanack.com/)可以免费获得。 
+Naval 是谁？[AngelList](https://angel.co/) CEO，200 多家创业公司的[天使投资人](https://angel.co/p/naval)，[发 Tweet 的人](https://twitter.com/naval)，[内容创作者](https://nav.al/)…… 我在 [Mélodie Newsletter #10](https://mailchi.mp/fdcfa0113795/melodie-10) 里推荐了他在 [The Knowledge Project](https://fs.blog/knowledge-project/naval-ravikant/) 播客的采访，一个多小时听下来，有太多令人深思的点，来不及做笔记。后来又找到 [The Almanack of Naval Ravikant](https://www.navalmanack.com/) 这本书，集合了他在各处散落的思考，内容基本覆盖了他在播客里讲到的点。这本书的[诞生过程](https://www.navalmanack.com/blog-posts/how-this-book-came-together-entirely-on-twitter)挺有意思，作者 Eric Jorgenson 一开始是以陌生人的身份在 Twitter 上问 Naval 能不能把他的东西整理成书，Naval 同意了，然后就有了这本书。整个项目是公共服务性质的，[电子版](https://www.navalmanack.com/)可以免费获得。
 
 如果有年度书籍评选的话，The Almanack of Naval Ravikant 大概是我的年度最佳之一。Naval 在人生、财富、幸福、创造方面的智慧，给了我很多启发。一方面读的时候有无数「啊，就是这样！」这样拍桌叫好、心有戚戚焉的时刻，另一方面又有许多非常规的观点和看待事物的角度，每一处都让人反思良久。
 
@@ -22,7 +21,7 @@ Naval 是谁？[AngelList](https://angel.co/) CEO，200 多家创业公司的[�
 
 - 每周工作 40 小时是工业时代的遗留物。长久以来，知识工作者像运动员一样工作：训练，冲刺，休息，评估。但在信息社会，你可以用你的思想挣钱，而不是用时间换钱。仅通过出租你的时间无法变得富有。
 
-  > Whenever you can in life, optimize for independence rather than pay. If you have independence and you’re accountable on your output, as opposed to your input—that’s the dream. 
+  > Whenever you can in life, optimize for independence rather than pay. If you have independence and you’re accountable on your output, as opposed to your input—that’s the dream.
 
 - 创造财富需要有特定知识（specific knowledge）和正确手段（leverage），以及对结果负责（accountability）。
 
@@ -48,7 +47,7 @@ Naval 是谁？[AngelList](https://angel.co/) CEO，200 多家创业公司的[�
 
 - 重新审视你的信仰，谨慎被包装好了传递给你的那些价值观和信仰，包括但不限于：政治信仰，宗教信仰。
 
-  > If all your beliefs line up into neat little bundles, you should be highly suspicious. 
+  > If all your beliefs line up into neat little bundles, you should be highly suspicious.
 
 - 在一个动态系统中，不存在一劳永逸的解决方案。软件有重设计，性格、职业、和团队也需要重设计。
 
@@ -64,7 +63,7 @@ Naval 是谁？[AngelList](https://angel.co/) CEO，200 多家创业公司的[�
 
 - 学习基础的思维模型，比如：进化论，微观经济学，博弈论，心理学，沟通与说服，数学，计算机。
 
-  > Mental models are really just compact ways for you to recall your own knowledge. 
+  > Mental models are really just compact ways for you to recall your own knowledge.
 
 - 如果你难以在两者中做决定，选择短期内让你更痛苦、看起来更困难的那个选项。因为如果两个选项里，一个让你短期痛苦，另一个导致未来痛苦，大脑总会自动倾向躲避当下痛苦。适用场景：选择运动而不是躺着，选择健康饮食而不是垃圾食品，选择存钱而不是消费。
 
@@ -88,9 +87,9 @@ Naval 是谁？[AngelList](https://angel.co/) CEO，200 多家创业公司的[�
 
 - 焦虑是因为你无法自处。坐下来，试着什么也不做。你做不到。因为焦虑总是催着你让你起身做点什么。焦虑是一系列不断在脑中跑过的想法。焦虑的人不快乐。
 
-    > All of man’s troubles arise because he cannot sit in a room quietly by himself. 
-    >
-    > — Blaise Pascal
+  > All of man’s troubles arise because he cannot sit in a room quietly by himself.
+  >
+  > — Blaise Pascal
 
 - 人总是有这样一种幻觉：在某个地方或时间点，有某件事物（物品，钱，地位，人）可以让我从此幸福快乐。
 
@@ -112,13 +111,13 @@ Naval 是谁？[AngelList](https://angel.co/) CEO，200 多家创业公司的[�
 
 - 因为总有一天你会死去，到时候所有一切都不再重要。所以享受当下，去爱，让在意的人开心，开怀大笑，感激每一刻，做积极的事情，做擅长的事情。
 
-    > Art is creativity. Art is anything done for its own sake. What are the things that are done for their own sake, and there’s nothing behind them? Loving somebody, creating something, playing.
+  > Art is creativity. Art is anything done for its own sake. What are the things that are done for their own sake, and there’s nothing behind them? Loving somebody, creating something, playing.
 
 - 关于嫉妒：当你嫉妒某个人的才华，外表，财富的时候，你会想说「要是我有他/她的才华/外表/财富就好了」。但问题是，你真的想彻头彻尾地变成另一个人吗？拥有他/她的一切吗（他/她的所有经历、家人、欲望、遭遇、幸福或不幸程度）？如果你不愿意彻底变成他/她，嫉妒就完全没有意义。
 
 - 关于 judge 他人：judge 别人会让你对自己暂时感觉良好，但之后你会感到孤独，然后你会逐渐只看得见负面的东西。世界会把你的负面感觉投射回你自己身上。
 
-    > I’m not going to be the most successful person on the planet, nor do I want to be. I just want to be the most successful version of myself while working the least hard possible.
+  > I’m not going to be the most successful person on the planet, nor do I want to be. I just want to be the most successful version of myself while working the least hard possible.
 
 - 活在当下（be present），全情投入这一刻。你不拥有过去（只是记忆），不拥有未来（还没发生），你拥有的只有当下这一刻的时间。
 
@@ -151,8 +150,8 @@ Naval 是谁？[AngelList](https://angel.co/) CEO，200 多家创业公司的[�
 - Exercise = High Intensity Resistance Training + Sports + Rest
 - Diet = Natural Foods + Intermittent Fasting + Plants
 - Sleep = No alarms + 8–9 hours + Circadian rhythms
-- Wealth = Income + Wealth * (Return on Investment)
-- Income = Accountability + Leverage + Specific Knowledge 
+- Wealth = Income + Wealth \* (Return on Investment)
+- Income = Accountability + Leverage + Specific Knowledge
 - Accountability = Personal Branding + Personal Platform + Taking Risk
 - Leverage = Capital + People + Intellectual Property
 - Specific Knowledge = Knowing how to do something society cannot yet easily train other people to do
