@@ -1,4 +1,3 @@
-import React from "react"
 import Subscribe from "./mailchimp"
 /** @jsx jsx */
 import { jsx, Label, Input, Button, Flex, Box, Text, Spinner } from "theme-ui"

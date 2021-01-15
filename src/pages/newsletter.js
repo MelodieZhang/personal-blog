@@ -27,6 +27,7 @@ const NewsletterPage = ({ location }) => {
       <p sx={{ variant: `text.body` }}>
         <a
           href="https://us10.campaign-archive.com/home/?u=4fed45ee5092478a3ecdc063a&id=391be5d253"
+          rel="noreferrer"
           target="_blank"
         >
           浏览往期归档 →
