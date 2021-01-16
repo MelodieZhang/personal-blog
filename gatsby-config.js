@@ -59,17 +59,23 @@ module.exports = {
         trackingId: `UA-121984089-1`,
       },
     },
-    `gatsby-plugin-feed`,
+    // Create an RSS feed (or multiple feeds) for your Gatsby site.
+    // https://www.gatsbyjs.com/plugins/gatsby-plugin-feed/?=gatsby-plugin-feed
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-feed`,
       options: {
-        name: `Menghan's typing...`,
-        short_name: `Menghan`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#ffffff`,
-        display: `minimal-ui`,
-        icon: `content/assets/blog-icon.jpg`,
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
@@ -103,9 +109,21 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Your Site's RSS Feed",
+            title: "Menghan's RSS Feed",
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Menghan's typing...`,
+        short_name: `Menghan`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `minimal-ui`,
+        icon: `content/assets/blog-icon.jpg`,
       },
     },
     `gatsby-plugin-react-helmet`,
