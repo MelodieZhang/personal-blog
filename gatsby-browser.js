@@ -3,4 +3,4 @@ import "typeface-montserrat"
 import "typeface-merriweather"
 
 import "prismjs/themes/prism.css"
-import "./src/css/global.css"
+import "./src/styles/global.css"
