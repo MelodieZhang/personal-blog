@@ -14,6 +14,7 @@ module.exports = {
     },
   },
   plugins: [
+    "gatsby-plugin-postcss",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -42,6 +43,16 @@ module.exports = {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                "heading[depth=1]": "title",
+                "heading[depth=3]": "title",
+                paragraph: "title",
+              },
             },
           },
           `gatsby-remark-prismjs`,
