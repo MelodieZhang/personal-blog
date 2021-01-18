@@ -93,7 +93,7 @@ const groupPostsByYear = posts =>
   }, {})
 
 const ArchivePage = ({ data, location }) => {
-  const posts = data.allMarkdownRemark.nodes
+  const posts = data.allMdx.nodes
 
   return (
     <Layout location={location}>
@@ -107,7 +107,7 @@ export default ArchivePage
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         fields {
           slug
