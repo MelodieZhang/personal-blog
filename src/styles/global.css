@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-5xl text-primary;
+    }
+    h3 {
+      @apply text-xl text-primary;  
+    }
+    p {
+        @apply text-secondary;
+    }
+}
