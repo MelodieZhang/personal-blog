@@ -6,7 +6,10 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      fontWeight: ["hover", "focus", "active"],
+      borderColor: ["focus", "active"],
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 }
