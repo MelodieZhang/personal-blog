@@ -9,7 +9,7 @@ function PostItem(props) {
   return (
     <article key={post.fields.slug} className="mb-14">
       <Link to={post.fields.slug}>
-        <h3 className="text-xl">{post.frontmatter.title}</h3>
+        <h3>{post.frontmatter.title}</h3>
         <p
           className="my-4"
           dangerouslySetInnerHTML={{
