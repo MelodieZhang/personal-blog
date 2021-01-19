@@ -1,35 +1,12 @@
-/** @jsx jsx */
-import { jsx } from "theme-ui"
+import React from "react"
 import { Link } from "gatsby"
 
-const navItemStyles = {
-  borderBottom: `1px solid transparent`,
-  color: `primary`,
-  display: `block`,
-  textDecoration: `none`,
-  zIndex: 1,
-  margin: `0 0 0 0`,
-  lineHeight: `navigation`,
-  "&:hover, &:focus": { fontWeight: "bold" },
-}
-
 const NavItem = ({ linkTo, children }) => (
-  <li
-    sx={{
-      margin: `0 0 0 0`,
-      marginRight: `5`,
-    }}
-  >
+  <li className="mr-8 my-0">
     <Link
       to={linkTo}
-      activeClassName="active"
-      sx={{
-        ...navItemStyles,
-        "&.active": {
-          fontWeight: `bold`,
-          borderBottomColor: `primary`,
-        },
-      }}
+      className="group border-solid border-b block border-transparent leading-loose hover:font-bold focus:font-bold"
+      activeClassName="font-bold border-black"
     >
       {children}
     </Link>
@@ -45,52 +22,15 @@ const navItems = [
 
 const TopNav = ({ location }) => {
   return (
-    <div
-      sx={{
-        marginTop: `10`,
-        marginBottom: `8`,
-      }}
-    >
-      <h1
-        sx={{
-          marginBottom: `4`,
-        }}
-      >
-        <Link
-          sx={{
-            color: `primary`,
-            fontSize: `6`,
-            boxShadow: `none`,
-            textDecoration: `none`,
-          }}
-          to={"/"}
-        >
+    <div className="my-20">
+      <h1>
+        <Link className="text-5xl" to={"/"}>
           Melodie's typing...
         </Link>
       </h1>
-      <div
-        style={{
-          color: `primary`,
-          fontSize: `1`,
-        }}
-      >
-        Design, read, learn, create.
-      </div>
-      <nav
-        sx={{
-          marginTop: `10`,
-          borderBottomWidth: `1px`,
-          borderBottomColor: `divider`,
-          borderBottomStyle: `solid`,
-        }}
-      >
-        <ul
-          sx={{
-            listStyle: `none`,
-            display: `flex`,
-            margin: `0 0 0 0`,
-          }}
-        >
+      <div className="text-xl mt-4">Design, read, learn, create.</div>
+      <nav className="mt-24 border-solid border-b">
+        <ul className="list-none flex">
           {navItems.map(({ id, text }) => (
             <NavItem key={id} linkTo={`${id}`}>
               <div>{text}</div>
