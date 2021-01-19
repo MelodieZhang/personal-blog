@@ -6,7 +6,7 @@ const NavItem = ({ linkTo, children }) => (
     <Link
       to={linkTo}
       className="group border-solid border-b block border-transparent leading-loose hover:font-bold focus:font-bold"
-      activeClassName="font-bold border-black"
+      activeClassName="font-bold border-primary"
     >
       {children}
     </Link>
@@ -24,11 +24,11 @@ const TopNav = ({ location }) => {
   return (
     <div className="my-20">
       <h1>
-        <Link className="text-5xl" to={"/"}>
-          Melodie's typing...
-        </Link>
+        <Link to={"/"}>Melodie's typing...</Link>
       </h1>
-      <div className="text-xl mt-4">Design, read, learn, create.</div>
+      <div className="text-xl text-secondary mt-4">
+        Design, read, learn, create.
+      </div>
       <nav className="mt-24 border-solid border-b">
         <ul className="list-none flex">
           {navItems.map(({ id, text }) => (

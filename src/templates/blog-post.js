@@ -21,14 +21,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       <article className="prose">
         <header sx={{ marginBottom: `5` }}>
-          <h2
-            sx={{
-              variant: `text.heading`,
-              fontSize: `4`,
-            }}
-          >
-            {post.frontmatter.title}
-          </h2>
+          <h2>{post.frontmatter.title}</h2>
           <small sx={{ variant: `text.small` }}>{post.frontmatter.date}</small>
         </header>
         <MDXRenderer>{post.body}</MDXRenderer>
