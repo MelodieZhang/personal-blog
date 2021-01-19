@@ -34,60 +34,51 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <MDXRenderer>{post.body}</MDXRenderer>
         <footer></footer>
       </article>
-
-      <nav
-        sx={{
-          marginTop: `8`,
-        }}
-      >
-        <ul
-          sx={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            margin: `0 0 0 0`,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link
-                sx={{
-                  textDecoration: `none`,
-                  color: `black`,
-                }}
-                to={previous.fields.slug}
-                rel="prev"
-              >
-                <span sx={{ color: `body` }}>◂ </span>
-                <span>上一篇</span>{" "}
-                <span sx={{ fontWeight: `bold` }}>
-                  {previous.frontmatter.title}
-                </span>
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link
-                sx={{
-                  textDecoration: `none`,
-                  color: `black`,
-                }}
-                to={next.fields.slug}
-                rel="next"
-              >
-                <span>下一篇</span>{" "}
-                <span sx={{ fontWeight: `bold` }}>
-                  {next.frontmatter.title}
-                </span>
-                <span sx={{ color: `body` }}> ▸</span>
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
+      <BottomNav previous={previous} next={next} />
     </Layout>
+  )
+}
+
+const BottomNav = ({ previous, next }) => {
+  return (
+    <nav className="my-14">
+      <ul className="list-none flex justify-between">
+        <li className="group rounded p-2 hover:bg-gray-200 hover:bg-opacity-50 hover:shadow-sm">
+          {previous && (
+            <Link
+              sx={{
+                textDecoration: `none`,
+                color: `black`,
+              }}
+              to={previous.fields.slug}
+              rel="prev"
+            >
+              <span sx={{ color: `body` }}>◂ </span>
+              <span>上一篇</span>{" "}
+              <span sx={{ fontWeight: `bold` }}>
+                {previous.frontmatter.title}
+              </span>
+            </Link>
+          )}
+        </li>
+        <li className="group rounded p-2 hover:bg-gray-200 hover:bg-opacity-50 hover:shadow-sm">
+          {next && (
+            <Link
+              sx={{
+                textDecoration: `none`,
+                color: `black`,
+              }}
+              to={next.fields.slug}
+              rel="next"
+            >
+              <span>下一篇</span>{" "}
+              <span sx={{ fontWeight: `bold` }}>{next.frontmatter.title}</span>
+              <span sx={{ color: `body` }}> ▸</span>
+            </Link>
+          )}
+        </li>
+      </ul>
+    </nav>
   )
 }
 
