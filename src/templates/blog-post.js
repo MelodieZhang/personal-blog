@@ -2,9 +2,14 @@
 import { jsx } from "theme-ui"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXProvider } from "@mdx-js/react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { PostH1, PostH2, HLink } from "../components/post-headers"
+import { P } from "../components/post-content"
+
+const shortcodes = { PostH1, PostH2, HLink }
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx
@@ -26,7 +31,15 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </h2>
           <small sx={{ variant: `text.small` }}>{post.frontmatter.date}</small>
         </header>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <MDXProvider
+          components={{
+            h3: PostH1,
+            h4: PostH2,
+            p: P,
+          }}
+        >
+          <MDXRenderer>{post.body}</MDXRenderer>
+        </MDXProvider>
         <footer></footer>
       </article>
 
