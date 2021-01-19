@@ -19,7 +19,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
-      <article>
+      <article className="prose">
         <header sx={{ marginBottom: `5` }}>
           <h2
             sx={{
@@ -31,15 +31,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </h2>
           <small sx={{ variant: `text.small` }}>{post.frontmatter.date}</small>
         </header>
-        <MDXProvider
-          components={{
-            h3: PostH1,
-            h4: PostH2,
-            p: P,
-          }}
-        >
-          <MDXRenderer>{post.body}</MDXRenderer>
-        </MDXProvider>
+        <MDXRenderer>{post.body}</MDXRenderer>
         <footer></footer>
       </article>
 
