@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Emoji from "../components/emoji"
-import NewsletterSub from "../components/subscribe/newsletter-sub"
+import NewsletterSub from "../components/newsletter-sub"
 
 const NewsletterPage = ({ location }) => {
   return (
