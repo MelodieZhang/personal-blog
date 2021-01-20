@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx } from "theme-ui"
+import React from "react"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
@@ -30,38 +29,22 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 const BottomNav = ({ previous, next }) => {
   return (
     <nav className="my-14">
-      <ul className="list-none flex justify-between">
-        <li className="group rounded p-2 duration-300 hover:bg-hoverbg hover:bg-opacity-50 hover:shadow-sm">
+      <ul className="list-none flex justify-between text-primary text-base">
+        <li className="group rounded p-3 duration-300 hover:bg-hoverbg hover:bg-opacity-90 hover:shadow-sm">
           {previous && (
-            <Link
-              sx={{
-                textDecoration: `none`,
-                color: `black`,
-              }}
-              to={previous.fields.slug}
-              rel="prev"
-            >
-              <span sx={{ color: `body` }}>◂ </span>
+            <Link to={previous.fields.slug} rel="prev">
+              <span>◂ </span>
               <span>上一篇</span>{" "}
-              <span sx={{ fontWeight: `bold` }}>
-                {previous.frontmatter.title}
-              </span>
+              <span className="font-medium">{previous.frontmatter.title}</span>
             </Link>
           )}
         </li>
-        <li className="group rounded p-2 duration-300 hover:bg-hoverbg hover:bg-opacity-90 hover:shadow-sm">
+        <li className="group rounded p-3 duration-300 hover:bg-hoverbg hover:bg-opacity-90 hover:shadow-sm">
           {next && (
-            <Link
-              sx={{
-                textDecoration: `none`,
-                color: `black`,
-              }}
-              to={next.fields.slug}
-              rel="next"
-            >
+            <Link to={next.fields.slug} rel="next">
               <span>下一篇</span>{" "}
-              <span sx={{ fontWeight: `bold` }}>{next.frontmatter.title}</span>
-              <span sx={{ color: `body` }}> ▸</span>
+              <span className="font-medium">{next.frontmatter.title}</span>
+              <span> ▸</span>
             </Link>
           )}
         </li>
