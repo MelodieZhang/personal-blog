@@ -56,44 +56,48 @@ const AboutPage = ({ location }) => {
           <div className="mb-10">
             <h3 className="mb-4">Elsewhere</h3>
             <p className="leading-loose">
-              <div className="leading-relaxed">
+              <div className="mb-2">
                 <a
                   href="https://us10.campaign-archive.com/home/?u=4fed45ee5092478a3ecdc063a&id=391be5d253"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-primary underline"
                 >
                   Mélodie Newsletter
                 </a>
                 <div>隔周更新，包含七个链接</div>
               </div>
 
-              <div className="leading-relaxed">
+              <div className="mb-2">
                 <a
                   href="https://www.etsy.com/shop/DreamZakka"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-primary underline"
                 >
                   Dream Zakka
                 </a>
                 <div>贩卖手绘和设计的 Etsy 小店</div>
               </div>
 
-              <div className="leading-relaxed">
+              <div className="mb-2">
                 <a
                   href="https://www.instagram.com/menghan.xyz/"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-primary underline"
                 >
                   menghan.xyz
                 </a>
                 <div>不定期更新的插画</div>
               </div>
 
-              <div className="leading-relaxed">
+              <div className="mb-2">
                 <a
                   href="https://mydesignnotebook.tumblr.com/"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-primary underline"
                 >
                   Design Notebook
                 </a>
@@ -105,24 +109,30 @@ const AboutPage = ({ location }) => {
             <h3 className="mb-4">Don't be strangers</h3>
             <p className="leading-loose">
               <div>
-                <span className="font-bold">Telegram&nbsp;&nbsp;</span>
+                <span className="font-medium">Telegram&nbsp;&nbsp;</span>
                 <a
                   href="https://telegram.me/menghanzhang"
                   title="telegram"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-primary underline"
                 >
                   @menghanzhang
                 </a>
               </div>
               <div>
-                <span className="font-bold">Email</span>
+                <span className="font-medium">Email</span>
                 &nbsp;&nbsp;zhangmenghan728@gmail.com
               </div>
               <br />
               <div>
                 <Emoji symbol="📫" label="mailbox" /> 通过{" "}
-                <a href="/rss.xml" rel="noreferrer" target="_blank">
+                <a
+                  href="/rss.xml"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-primary underline"
+                >
                   RSS
                 </a>{" "}
                 订阅
@@ -134,6 +144,7 @@ const AboutPage = ({ location }) => {
                   title="buymeacoffee"
                   rel="noreferrer"
                   target="_blank"
+                  className="text-primary underline"
                 >
                   请我吃冰淇淋
                 </a>{" "}
@@ -147,7 +158,6 @@ const AboutPage = ({ location }) => {
           alt={author.name + "'s profile image"}
           style={{
             minWidth: 50,
-            // margin: `1.9rem`,
           }}
         />
       </div>
