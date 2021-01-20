@@ -4,6 +4,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { ArrowLeft, ArrowRight } from "../components/arrows"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx
@@ -29,22 +30,30 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 const BottomNav = ({ previous, next }) => {
   return (
     <nav className="my-14">
-      <ul className="list-none flex justify-between text-primary text-base">
+      <ul className="list-none flex flex-wrap justify-between text-primary text-base">
         <li className="group rounded p-3 duration-300 hover:bg-hoverbg hover:bg-opacity-90 hover:shadow-sm">
           {previous && (
-            <Link to={previous.fields.slug} rel="prev">
-              <span>◂ </span>
-              <span>上一篇</span>{" "}
+            <Link
+              to={previous.fields.slug}
+              rel="prev"
+              className="flex items-center"
+            >
+              <ArrowLeft />
+              <span className="mr-1">上一篇</span>
               <span className="font-medium">{previous.frontmatter.title}</span>
             </Link>
           )}
         </li>
         <li className="group rounded p-3 duration-300 hover:bg-hoverbg hover:bg-opacity-90 hover:shadow-sm">
           {next && (
-            <Link to={next.fields.slug} rel="next">
-              <span>下一篇</span>{" "}
+            <Link
+              to={next.fields.slug}
+              rel="next"
+              className="flex items-center"
+            >
+              <span className="mr-1">下一篇</span>
               <span className="font-medium">{next.frontmatter.title}</span>
-              <span> ▸</span>
+              <ArrowRight />
             </Link>
           )}
         </li>
