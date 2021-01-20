@@ -7,10 +7,10 @@
       @apply text-4xl font-medium text-primary;
     }
     h2 {
-      @apply text-3xl font-medium text-primary;
+      @apply text-2xl font-medium text-primary;
     }
     h3 {
-      @apply text-2xl font-medium text-primary;  
+      @apply text-xl font-medium text-primary;  
     }
     p {
       @apply text-secondary leading-loose;
