@@ -6,6 +6,9 @@
     h1 {
       @apply text-5xl text-primary;
     }
+    h2 {
+      @apply text-3xl text-primary;
+    }
     h3 {
       @apply text-xl text-primary;  
     }
