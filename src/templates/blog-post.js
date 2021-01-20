@@ -36,7 +36,7 @@ const BottomNav = ({ previous, next }) => {
   return (
     <nav className="my-14">
       <ul className="list-none flex justify-between">
-        <li className="group rounded p-2 hover:bg-gray-200 hover:bg-opacity-50 hover:shadow-sm">
+        <li className="group rounded p-2 duration-300 hover:bg-hoverbg hover:bg-opacity-50 hover:shadow-sm">
           {previous && (
             <Link
               sx={{
@@ -54,7 +54,7 @@ const BottomNav = ({ previous, next }) => {
             </Link>
           )}
         </li>
-        <li className="group rounded p-2 hover:bg-gray-200 hover:bg-opacity-50 hover:shadow-sm">
+        <li className="group rounded p-2 duration-300 hover:bg-hoverbg hover:bg-opacity-90 hover:shadow-sm">
           {next && (
             <Link
               sx={{
