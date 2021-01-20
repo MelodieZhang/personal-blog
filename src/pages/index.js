@@ -7,17 +7,20 @@ import SEO from "../components/seo"
 function PostItem(props) {
   const post = props.post
   return (
-    <article key={post.fields.slug} className="mb-14">
+    <article
+      key={post.fields.slug}
+      className="mb-14 group rounded-lg p-4 duration-300 hover:bg-hoverbg hover:bg-opacity-90"
+    >
       <Link to={post.fields.slug}>
         <h3>{post.frontmatter.title}</h3>
         <p
-          className="my-4"
+          className="mt-4 mb-2"
           dangerouslySetInnerHTML={{
             __html: post.excerpt,
           }}
         />
+        <small className="text-xs text-third">{post.frontmatter.date}</small>
       </Link>
-      <small className="text-xs text-third">{post.frontmatter.date}</small>
     </article>
   )
 }
