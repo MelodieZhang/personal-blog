@@ -2,14 +2,9 @@
 import { jsx } from "theme-ui"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import { MDXProvider } from "@mdx-js/react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { PostH1, PostH2, HLink } from "../components/post-headers"
-import { P } from "../components/post-content"
-
-const shortcodes = { PostH1, PostH2, HLink }
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx
