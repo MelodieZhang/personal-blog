@@ -39,7 +39,7 @@ const AboutPage = ({ location }) => {
         title="About"
         description="Personal information about Menghan Zhang"
       />
-      <div className="flex justify-between">
+      <div className="flex flex-wrap justify-between">
         <div>
           <div className="mb-10">
             <h3 className="mb-4">About</h3>
@@ -156,9 +156,6 @@ const AboutPage = ({ location }) => {
         <Img
           fixed={data.avatar.childImageSharp.fixed}
           alt={author.name + "'s profile image"}
-          style={{
-            minWidth: 50,
-          }}
         />
       </div>
     </Layout>
