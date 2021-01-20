@@ -13,6 +13,6 @@
       @apply text-2xl font-medium text-primary;  
     }
     p {
-        @apply text-secondary leading-loose;
+      @apply text-secondary leading-loose;
     }
 }
