@@ -22,6 +22,7 @@ const NewsletterPage = ({ location }) => {
           href="https://menghan.substack.com/archive"
           rel="noreferrer"
           target="_blank"
+          className="text-primary underline"
         >
           浏览往期归档 →
         </a>
