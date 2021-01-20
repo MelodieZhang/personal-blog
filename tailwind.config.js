@@ -22,12 +22,16 @@ module.exports = {
         DEFAULT: colors.coolGray[400],
         dark: colors.coolGray[200],
       },
+      hoverbg: {
+        DEFAULT: colors.coolGray[100],
+      },
     },
   },
   variants: {
     extend: {
       fontWeight: ["hover", "focus", "active"],
       borderColor: ["focus", "active"],
+      transitionDuration: ["hover", "focus"],
     },
   },
   plugins: [require("@tailwindcss/typography")],
