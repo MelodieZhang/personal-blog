@@ -25,6 +25,9 @@ module.exports = {
       hoverbg: {
         DEFAULT: colors.coolGray[100],
       },
+      divider: {
+        DEFAULT: colors.warmGray[300],
+      },
     },
   },
   variants: {

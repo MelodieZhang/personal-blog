@@ -29,7 +29,7 @@ const TopNav = ({ location }) => {
       <div className="text-l text-secondary mt-4">
         Design, read, learn, create.
       </div>
-      <nav className="mt-24 border-solid border-b border-third">
+      <nav className="mt-24 border-solid border-b border-divider">
         <ul className="list-none flex">
           {navItems.map(({ id, text }) => (
             <NavItem key={id} linkTo={`${id}`}>
