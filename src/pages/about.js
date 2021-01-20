@@ -42,7 +42,7 @@ const AboutPage = ({ location }) => {
       <div className="flex justify-between">
         <div>
           <div className="mb-10">
-            <h2 className="mb-4">About</h2>
+            <h3 className="mb-4">About</h3>
             <p className="leading-loose">
               张梦晗, Melodie
               <br />
@@ -54,7 +54,7 @@ const AboutPage = ({ location }) => {
             </p>
           </div>
           <div className="mb-10">
-            <h2 className="mb-4">Elsewhere</h2>
+            <h3 className="mb-4">Elsewhere</h3>
             <p className="leading-loose">
               <div className="leading-relaxed">
                 <a
@@ -102,7 +102,7 @@ const AboutPage = ({ location }) => {
             </p>
           </div>
           <div>
-            <h2 className="mb-4">Don't be strangers</h2>
+            <h3 className="mb-4">Don't be strangers</h3>
             <p className="leading-loose">
               <div>
                 <span className="font-bold">Telegram&nbsp;&nbsp;</span>

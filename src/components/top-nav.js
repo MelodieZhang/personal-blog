@@ -26,7 +26,7 @@ const TopNav = ({ location }) => {
       <h1>
         <Link to={"/"}>Melodie's typing...</Link>
       </h1>
-      <div className="text-xl text-secondary mt-4">
+      <div className="text-l text-secondary mt-4">
         Design, read, learn, create.
       </div>
       <nav className="mt-24 border-solid border-b border-third">

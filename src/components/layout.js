@@ -8,8 +8,8 @@ const Layout = ({ location, children }) => {
         <TopNav location={location}></TopNav>
       </header>
       <main>{children}</main>
-      <footer className="text-center my-8">
-        <div className="text-sm">
+      <footer className="text-center mt-20">
+        <div className="text-sm text-third">
           Melodie &copy; {new Date().getFullYear()} · All rights reserved
         </div>
       </footer>

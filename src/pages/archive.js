@@ -9,10 +9,10 @@ function PostsOfYear(props) {
   const postsOfYear = props.postsOfYear
   return (
     <div>
-      <h2 className="mb-6">{year}</h2>
+      <h3 className="mb-6">{year}</h3>
       <ul>
         {postsOfYear.map(post => (
-          <li key={post.fields.slug}>
+          <li key={post.fields.slug} className="mb-4">
             <div>
               <Link className="text-secondary" to={post.fields.slug}>
                 {post.frontmatter.title}
