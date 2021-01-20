@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx } from "theme-ui"
+import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
@@ -10,40 +9,16 @@ function PostsOfYear(props) {
   const postsOfYear = props.postsOfYear
   return (
     <div>
-      <h3
-        sx={{
-          fontSize: `5`,
-          variant: `text.heading`,
-        }}
-      >
-        {year}
-      </h3>
-      <ul
-        sx={{
-          listStyle: `none`,
-          margin: `0`,
-        }}
-      >
+      <h2 className="mb-6">{year}</h2>
+      <ul>
         {postsOfYear.map(post => (
           <li key={post.fields.slug}>
             <div>
-              <Link
-                sx={{
-                  boxShadow: `none`,
-                  fontSize: `2`,
-                  color: `black`,
-                  textDecoration: `none`,
-                }}
-                to={post.fields.slug}
-              >
+              <Link className="text-secondary" to={post.fields.slug}>
                 {post.frontmatter.title}
               </Link>
               <time
-                sx={{
-                  variant: `text.small`,
-                  fontSize: `1`,
-                  float: `right`,
-                }}
+                className="text-sm text-third float-right"
                 dateTime={post.frontmatter.data}
               >
                 {post.frontmatter.date.slice(5)}
@@ -61,20 +36,10 @@ function ArchiveList(props) {
   // put most recent year's
   const years = Object.keys(groupedPosts).sort().reverse()
   return (
-    <ul
-      sx={{
-        listStyle: `none`,
-        margin: `0`,
-      }}
-    >
+    <ul>
       {years.map(year => {
         return (
-          <li
-            sx={{
-              marginBottom: `8`,
-            }}
-            key={year}
-          >
+          <li className="mb-12" key={year}>
             <PostsOfYear year={year} postsOfYear={groupedPosts[year]} />
           </li>
         )
