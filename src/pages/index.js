@@ -12,7 +12,7 @@ function PostItem(props) {
       className="mb-10 sm:mb-10 group rounded-lg -m-2 p-2 sm:-m-4 sm:p-4 duration-300 hover:bg-hoverbg hover:bg-opacity-90"
     >
       <Link to={post.fields.slug}>
-        <h3>{post.frontmatter.title}</h3>
+        <h2>{post.frontmatter.title}</h2>
         <p
           className="mt-4 mb-2"
           dangerouslySetInnerHTML={{
