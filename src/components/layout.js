@@ -3,7 +3,7 @@ import TopNav from "./top-nav"
 
 const Layout = ({ location, children }) => {
   return (
-    <div className="max-w-prose mx-auto p-6">
+    <div className="max-w-screen-md mx-auto p-4 sm:p-16">
       <header>
         <TopNav location={location}></TopNav>
       </header>
