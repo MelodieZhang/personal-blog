@@ -17,7 +17,7 @@ function PostItem(props) {
           }}
         />
       </Link>
-      <small className="text-xs">{post.frontmatter.date}</small>
+      <small className="text-xs text-third">{post.frontmatter.date}</small>
     </article>
   )
 }
