@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 const NavItem = ({ linkTo, children }) => (
-  <li className="mr-8 my-0">
+  <li className="mr-4 sm:mr-8 my-0">
     <Link
       to={linkTo}
       className="group border-solid border-b block border-transparent leading-loose hover:font-bold focus:font-bold"
