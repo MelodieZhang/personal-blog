@@ -46,16 +46,6 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          // {
-          //   resolve: `gatsby-remark-classes`,
-          //   options: {
-          //     classMap: {
-          //       "heading[depth=1]": "title",
-          //       "heading[depth=3]": "title",
-          //       paragraph: "title",
-          //     },
-          //   },
-          // },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
