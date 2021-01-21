@@ -16,7 +16,6 @@
     "gatsby-image": "^2.9.0",
     "gatsby-plugin-feed": "^2.11.0",
     "gatsby-plugin-google-analytics": "^2.9.0",
-    "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^2.10.0",
     "gatsby-plugin-mdx": "^1.8.0",
     "gatsby-plugin-offline": "^3.8.0",
@@ -36,9 +35,7 @@
     "prismjs": "^1.23.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-helmet": "^5.2.1",
-    "react-mailchimp-subscribe": "^2.1.0",
-    "react-typography": "^0.16.19"
+    "react-helmet": "^5.2.1"
   },
   "devDependencies": {
     "prettier": "2.0.5"
