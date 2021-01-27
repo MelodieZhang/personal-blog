@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Emoji from "../components/emoji"
 import NewsletterSub from "../components/newsletter-sub"
+import { ArrowForward } from "../components/arrows"
 
 const NewsletterPage = ({ location }) => {
   return (
@@ -22,9 +23,9 @@ const NewsletterPage = ({ location }) => {
           href="https://menghan.substack.com/archive"
           rel="noreferrer"
           target="_blank"
-          className="text-primary underline"
+          className="text-primary underline flex items-center"
         >
-          浏览往期归档 →
+          <span className="mr-1">浏览往期归档</span> <ArrowForward />
         </a>
       </p>
       <NewsletterSub />
