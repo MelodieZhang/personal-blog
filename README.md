@@ -35,6 +35,8 @@ The codebase uses [Prettier](https://prettier.io) to format code style. Use `npm
 
 The website uses [tailwindcss](https://tailwindcss.com) to style.
 
+Additionally, We use [@tailwindcss/typography](https://github.com/tailwindlabs/tailwindcss-typography) to apply beautiful typography defaults to the posts. It works like a charm.
+
 ## Commands
 
 ```
