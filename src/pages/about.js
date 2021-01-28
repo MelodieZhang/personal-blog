@@ -58,7 +58,7 @@ const AboutPage = ({ location }) => {
             <p className="leading-loose">
               <div className="mb-2">
                 <a
-                  href="https://us10.campaign-archive.com/home/?u=4fed45ee5092478a3ecdc063a&id=391be5d253"
+                  href="https://menghan.substack.com/archive"
                   rel="noreferrer"
                   target="_blank"
                   className="text-primary underline"
