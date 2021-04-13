@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Emoji from "../components/emoji"
 import NewsletterSub from "../components/newsletter-sub"
 import { ArrowForward } from "../components/arrows"
@@ -9,7 +9,7 @@ import { ArrowForward } from "../components/arrows"
 const NewsletterPage = ({ location }) => {
   return (
     <Layout location={location}>
-      <SEO title="Newsletter" description="Menghan's newsletter" />
+      <Seo title="Newsletter" description="Menghan's newsletter" />
       <h3 className="mb-8">
         <Emoji symbol="📮" label="postbox" /> Mélodie
       </h3>
