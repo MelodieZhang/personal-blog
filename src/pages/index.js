@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 function PostItem(props) {
   const post = props.post
@@ -30,7 +30,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location}>
-      <SEO title="Index" description="Index page of the blog" />
+      <Seo title="Index" description="Index page of the blog" />
       {posts.map(({ node }) => {
         return <PostItem post={node} />
       })}

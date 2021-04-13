@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Emoji from "../components/emoji"
 import Img from "gatsby-image"
 
@@ -35,7 +35,7 @@ const AboutPage = ({ location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO
+      <Seo
         title="About"
         description="Personal information about Menghan Zhang"
       />

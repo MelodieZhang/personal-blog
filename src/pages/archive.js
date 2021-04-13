@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 function PostsOfYear(props) {
   const year = props.year
@@ -62,7 +62,7 @@ const ArchivePage = ({ data, location }) => {
 
   return (
     <Layout location={location}>
-      <SEO title="Archive" description="All posts' archive list" />
+      <Seo title="Archive" description="All posts' archive list" />
       <ArchiveList groupedPosts={groupPostsByYear(posts)} />
     </Layout>
   )

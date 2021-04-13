@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { ArrowLeft, ArrowRight } from "../components/arrows"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
@@ -13,7 +13,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      <Seo title={post.frontmatter.title} description={post.excerpt} />
       <article className="prose">
         <header className="mb-10">
           <h2>{post.frontmatter.title}</h2>
