@@ -4,18 +4,11 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Emoji from "../components/emoji"
-import Img from "gatsby-image"
+import { StaticImage } from "gatsby-plugin-image"
 
 const AboutPage = ({ location }) => {
   const data = useStaticQuery(graphql`
     query AboutQuery {
-      avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
-        childImageSharp {
-          fixed(width: 320, height: 440) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
       site {
         siteMetadata {
           author {
@@ -39,7 +32,7 @@ const AboutPage = ({ location }) => {
         title="About"
         description="Personal information about Menghan Zhang"
       />
-      <div className="flex flex-wrap justify-between">
+      <div className="flex flex-wrap justify-between items-start">
         <div>
           <div className="mb-10">
             <h3 className="mb-4">About</h3>
@@ -153,9 +146,11 @@ const AboutPage = ({ location }) => {
             </p>
           </div>
         </div>
-        <Img
-          fixed={data.avatar.childImageSharp.fixed}
+        <StaticImage
+          src="../images/profile.jpg"
           alt={author.name + "'s profile image"}
+          width="320"
+          height="440"
         />
       </div>
     </Layout>
