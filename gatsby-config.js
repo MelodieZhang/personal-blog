@@ -23,13 +23,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.md`, `.mdx`],
@@ -134,7 +127,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `content/assets/blog-icon.jpg`,
+        icon: `src/images/profile_index.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

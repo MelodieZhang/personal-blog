@@ -147,7 +147,7 @@ const AboutPage = ({ location }) => {
           </div>
         </div>
         <StaticImage
-          src="../images/profile.jpg"
+          src="../images/profile_about.jpg"
           alt={author.name + "'s profile image"}
           width="320"
           height="440"
