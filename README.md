@@ -28,6 +28,7 @@ to stand between the users and the domain. Cloudflare enables HTTPS for melodiez
 If you want to develop your own website based on this repo. Please make sure:
 - Replace any personalized information (configuration files) or content (blog posts) with yours.
 - Replace GA tracking id (`gatsby-plugin-google-analytics` in `gatsby-config.js`) with yours or remove the configuration.
+- Update SEO information if you want to use it.
 
 ## Development Environment
 
