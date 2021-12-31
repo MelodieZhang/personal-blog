@@ -63,18 +63,6 @@ const AboutPage = ({ location }) => {
 
               <div className="mb-2">
                 <a
-                  href="https://www.etsy.com/shop/DreamZakka"
-                  rel="noreferrer"
-                  target="_blank"
-                  className="text-primary underline"
-                >
-                  Dream Zakka
-                </a>
-                <div>贩卖手绘和设计的 Etsy 小店</div>
-              </div>
-
-              <div className="mb-2">
-                <a
                   href="https://www.instagram.com/menghan.xyz/"
                   rel="noreferrer"
                   target="_blank"
