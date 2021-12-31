@@ -17,7 +17,6 @@ const navItems = [
   { id: `/`, text: `首页` },
   { id: `/archive`, text: `归档` },
   { id: `/about`, text: `关于` },
-  { id: `/newsletter`, text: `小报` },
 ]
 
 const TopNav = ({ location }) => {

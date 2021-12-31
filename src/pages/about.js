@@ -58,7 +58,7 @@ const AboutPage = ({ location }) => {
                 >
                   Mélodie Newsletter
                 </a>
-                <div>隔周更新，包含七个链接</div>
+                <div>暂停更新</div>
               </div>
 
               <div className="mb-2">
